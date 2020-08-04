@@ -1,0 +1,10 @@
+export const SET_VALUES = 'SET_VALUES';
+export const LOGIN = 'LOGIN';
+export const REGISTER = 'REGISTER';
+export const OPEN_ALERT = 'OPEN_ALERT';
+export const CLOSE_ALERT = 'CLOSE_ALERT';
+export const SET_LOGIN = 'SET_LOGIN';
+export const SET_PROFILE = 'SET_PROFILE';
+export const SET_MATCHED = 'SET_MATCHED';
+export const SET_RECEIVED = 'SET_RECEIVED';
+export const NOT_VERIFIED = 'NOT_VERIFIED';

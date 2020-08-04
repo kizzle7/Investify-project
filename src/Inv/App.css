@@ -1,0 +1,22 @@
+.content_frame {
+    margin-left: 220px;
+    background-color: #edf1f5;
+    flex: 1;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main_dashboard {
+    position: relative;
+    display: flex;
+    /* height: 100vh; */
+}
+
+@media(max-width: 768px) {
+    .my_sidebar {
+        display: none;
+    }
+    .content_frame {
+        margin-left: 0;
+    }
+}

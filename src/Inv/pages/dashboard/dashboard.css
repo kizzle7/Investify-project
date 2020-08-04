@@ -1,0 +1,232 @@
+.dashboard_main {
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+}
+
+.profile_bio {
+    background-color: #fff;
+    padding: 12px;
+    height: 300px;
+}
+
+.profile_bank {
+    background-color: #fff;
+    padding: 12px;
+    height: 300px;
+}
+
+.prof_desc {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.mini_cont {
+    max-width: 550px;
+    margin: auto;
+    height: 300px;
+    background-color: #fff;
+}
+
+.bio_style {
+    width: 100%;
+    padding: 12px;
+    border-bottom: 1px dashed #0E692D;
+}
+
+.profile_input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0px 10px 10px;
+    border: 1px dashed #0E692D;
+}
+
+.profile_btn {
+    padding: 6px 20px;
+    color: #fff;
+    background-color: #04762a;
+    border: none;
+}
+
+/* Dashboard Starts */
+
+.myinfo {
+    border: 1px solid #fff;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.myheader {
+    color: #fff;
+    background-color: #045a21;
+    padding: 5px 12px;
+    margin-top: -2px;
+    font-size: 14px;
+}
+
+.mybody {
+    padding: 10px;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+.makepayment_frame {
+    /* max-width: 600px; */
+    height: auto;
+}
+
+.makepayment {
+    font-size: 14px;
+}
+
+.countdown_style {
+    color: #f00;
+    font-weight: bold;
+}
+
+.persontopay {
+    border: 1px solid #C02942;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.payment_done {
+    width: 75%;
+}
+
+.payment_done button {
+    font-size: 14px;
+    padding: 7px 10px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.persontoreceive {
+    border: 1px solid rgb(27, 169, 27);
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.persontoreceive button {
+    border: none;
+    color: #fff;
+    background-color: rgb(27, 169, 27);
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.proof_img {
+    width: 100px;
+    height: 100px;
+}
+
+.proof_btn {
+    width: 50%;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+
+/* Dashboard Ends */
+
+/* Transactions starts */
+
+.mytransaction {
+    width: 100%;
+}
+
+/* Transactions ends */
+
+/* Referrals starts */
+
+.referral_ {
+    background-color: #fff;
+    padding: 25px 12px;
+}
+
+.referral_box {
+    background-color: rgb(27, 169, 27);
+    color: #fff;
+    padding: 30px 70px;
+}
+
+.referral_amount {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.referral_box button {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #153665;
+    background-color: #fff;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.referral_box button:hover {
+    transition: 0.6s;
+    background-color: #f5f1f1;
+}
+
+.copy_link {
+    background-color: #eee;
+    padding: 12px;
+    text-align: center;
+}
+
+.copy_link button {
+    border: none;
+    margin-left: 6px;
+    background-color: #C02942;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 3px;
+}
+
+.copy_link a {
+    color: #006699;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.copy_link a:hover {
+    transition: 0.4s;
+    color: #5098bb;
+}
+
+.referrals_frame {
+    background-color: #fff;
+}
+
+/* Referral ends */
+
+@media(max-width: 768px) {
+    .margin-5 {
+        margin-top: 30px;
+    }
+    .transaction_search {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+    .mobileNoMarPar {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media(max-width: 768px) {
+    .table-responsive {
+        width: calc(100vw - 59px) !important;
+    }
+}
